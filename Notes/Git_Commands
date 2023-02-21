@@ -1,4 +1,5 @@
 GIT
+---
 
 $git init
 to init the git local repo
@@ -86,8 +87,10 @@ check the integrity of your Git repository and detect any issues with the object
 
 $ git bisect
 to search for the commit that introduced a bug in your code
+=======================================================================================================================================
 
 Multi branch pull and push from remote to local repo:
+-----------------------------------------------------
 
 $git clone –mirror <Old_Repo_URL> 
 It will clone all the branches from repo to local repo
